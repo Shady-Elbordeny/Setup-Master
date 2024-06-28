@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  height: 100vh;
+  background-image: url("/src/components/RecomendationHome/processor.png");
+  background-size: cover;
+  background-position: center;
+}
+.app {
+  width: 90%;
+  margin: 0 auto;
+  padding: 24% 0;
+}
+.dropdown-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0;
+}
+.dropdownButton {
+  padding: 1rem 8rem;
+  font-size: x-large;
+  border-radius: 48px;
+  background-color: #f0f0f0;
+  color: black;
+}
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  color: black;
+  padding: 16px 24px;
+  border-radius: 16px;
+}
+.dropdownContent label {
+  margin: 10px 0;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+.dropdownContainer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5%;
+}
+.preferenceContainer {
+  width: 90%;
+  margin: 0px auto;
+  text-align: center;
+  font-size: xx-large;
+}
+.ssdPreference {
+  margin-bottom: 24px;
+}
+.ssdOptions,
+.caseOptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  transform: scale(2);
+  padding: 10px;
+  margin-right: 20px;
+}
+
+input[value="no"] {
+  margin-right: 28px;
+}
+input[value="mid tower"] {
+  margin-left: 64px;
+}
+input[value="mini tower"] {
+  margin-left: 74px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.budgetContainer {
+  margin-bottom: 20px;
+}
+
+.budgetInput {
+  padding: 5px;
+  margin-left: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  padding: 1rem 8rem;
+  font-size: x-large;
+  border-radius: 48px;
+  background-color: #f0f0f0;
+  color: black;
+}
+
+.dropdownContainer,
+.preferenceContainer {
+  margin-bottom: 20px;
+}
+
+.ssdPreference,
+.casePreference {
+  margin-bottom: 20px;
+}
+
+.recommendationTable {
+  width: 90%;
+  margin: 10px auto;
+  background-color: black;
+}
+.recommendationTable td {
+  width: 300px;
+}

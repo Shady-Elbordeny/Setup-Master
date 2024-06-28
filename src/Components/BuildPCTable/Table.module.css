@@ -1,0 +1,78 @@
+/* #pc-table div {
+  height: 100vh;
+  width: 100%;
+  background-color: #0a000d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#pc-table table {
+  width: 90%;
+  height: 90%;
+  margin: 0px auto;
+  box-shadow: #450e58 0px 4px 10px 0.2px;
+  border-radius: 4px 4px 0 0;
+}
+#pc-table table button {
+  width: 200px;
+  height: 36px;
+  padding: 5px 0;
+  color: white;
+  background-color: #450e58;
+  border: none;
+  border-radius: 6px;
+}
+#pc-table table tbody tr td:nth-child(2) {
+  padding-left: 20px;
+}
+#pc-table table button span {
+  color: white;
+  padding: 10px;
+  margin-right: 10px;
+}
+#pc-table td {
+  text-align: left;
+  padding: 8px 0;
+}
+#pc-table thead {
+  background-color: #15002a;
+}
+#pc-table th {
+  text-align: center;
+  padding: 10px;
+}
+#pc-table .Component {
+  padding-left: 20px;
+}
+#pc-table .title {
+  width: 44%;
+  text-align: left;
+}
+#pc-table .price {
+  width: 16%;
+}
+#pc-table .product {
+  width: 16%;
+}
+#pc-table .remove {
+  width: 13%;
+}
+
+#pc-table tbody tr {
+  border-bottom: 1px solid #450e58;
+}
+#pc-table tr td:first-child {
+  padding-left: 20px;
+  text-align: left;
+}
+#pc-table tfoot tr {
+  background-color: #15002a;
+  border-radius: 0px 0px 8px 8px;
+}
+#pc-table tfoot tr td {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 20px;
+} */

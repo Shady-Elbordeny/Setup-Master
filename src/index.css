@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --mainColor:#9D22CA;
+  --subColor:#16002A;
+  --headColor:#3EC4FF;
+  --hevColor:#2E0C39;
+  --bkColor:#0A000D;
+  --textColor:#fff;
+  --grayColor:#ffffff9d;
+}
+body {
+  background-color: var(--bkColor);
+  color:var(--textColor)
+}
+#authBanner {
+  background-image: url('./assets/images/wallpaperflare.png');
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input:focus{
+  outline: none;
+}
+.swiper-pagination-bullet {
+  width: 22px;
+  height: 10px;
+  border-radius: 3px;
+  background-color: #fff;
+  opacity: 1;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: var(--hevColor);
+}
+
+@media screen and (max-width:768px) {
+  .swiper-button-prev,
+  .swiper-button-next{
+    display: none;
+  }
+}
